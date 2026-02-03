@@ -1,0 +1,150 @@
+html, body {
+	background: #5a4d7a;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(70, 65, 95);
+}
+body {
+	font-family: "Segoe UI", Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 85%;
+	max-width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1.5em 2em 2em;
+	background: #faf8fc;
+	line-height: 1.7;
+	box-shadow: 0 0 20px rgba(0,0,0,.12);
+	border-radius: 4px;
+}
+body > ul:first-of-type {
+	list-style: none;
+	margin: 0 0 1.5em 0;
+	padding: 0.6em 0;
+	border-bottom: 2px solid #e0dce8;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em 1.2em;
+}
+body > ul:first-of-type li {
+	display: inline;
+}
+body > ul:first-of-type a {
+	text-decoration: none;
+	font-weight: 600;
+	color: rgb(120, 90, 150);
+}
+body > ul:first-of-type a:hover {
+	text-decoration: underline;
+}
+body > p:first-of-type {
+	font-size: 0.95em;
+	color: #888;
+	margin-bottom: 0.2em;
+}
+h1 {
+	font-size: 1.75em;
+	margin-bottom: 0.5em;
+	color: rgb(70, 65, 95);
+}
+h2 {
+	font-size: 1.4em;
+	margin-top: 1em;
+	margin-bottom: 0.35em;
+	color: rgb(80, 72, 110);
+	border-bottom: 1px solid #e0dce8;
+	padding-bottom: 0.2em;
+}
+h3 {
+	font-size: 1.15em;
+	margin-top: 0.8em;
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: rgb(130, 95, 165);
+}
+a:hover {
+	color: rgb(90, 65, 120);
+}
+ul ul {
+	margin: 0.4em 0 1em 1.2em;
+}
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #A68048;
+	background: #666;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+dt {
+	font-style: italic;
+	font-size:1.2em;
+}
+dd {
+	margin-bottom: 1.4em;
+}
+table {
+	margin-top: 1em;
+}
+caption {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	text-align: left;
+}
+td, th {
+	padding: 10px;
+}
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+aside {
+	padding: 1em;
+	background:rgb(83, 104, 138);
+	color: white;
+	margin-bottom: 1em;
+}
+aside h4 {
+	color: white;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+blockquote {
+	font-style: italic;
+}
+.flowRight {
+	float: right;
+	margin-left: 10px;
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
